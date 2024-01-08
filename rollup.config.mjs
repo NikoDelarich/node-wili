@@ -6,8 +6,8 @@ export default {
   ],
   input: 'src/index.ts',
   output: {
-    file: 'lib/wili.mjs',
-    format: 'esm',
+    file: 'lib/wili.cjs',
+    format: 'cjs',
     sourcemap: true
   },
   plugins: [

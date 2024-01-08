@@ -1,14 +1,12 @@
 {
-  "name": "wili",
+  "name": "@niko-npm/wili",
   "version": "0.7.1",
-  "description": "A Node client for the Wiener Linien public transport API",
+  "description": "Fork of wili, a Node client for the Wiener Linien public transport API, common JS version",
   "author": "Jan T. Sott",
   "license": "MIT",
-  "type": "module",
+  "type": "commonjs",
   "typings": "./types",
-  "exports": {
-    "import": "./lib/wili.mjs"
-  },
+  "main": "./lib/wili.cjs",
   "engines": {
     "node": ">=16.13 || >=18"
   },
@@ -48,7 +46,7 @@
     "eslint": "^8.46.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
-    "rollup": "^3.27.0",
+    "rollup": "^3.29.4",
     "tslib": "^2.6.1",
     "tsm": "^2.3.0",
     "typescript": "^5.1.6",
